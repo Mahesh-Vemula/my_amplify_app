@@ -1,6 +1,6 @@
 # my_amplify_app
 
-A new Flutter project.
+A new Flutter project. Added Aws amplify for backend
 
 ## Getting Started
 
@@ -14,3 +14,14 @@ A few resources to get you started if this is your first Flutter project:
 For help getting started with Flutter development, view the
 [online documentation](https://docs.flutter.dev/), which offers tutorials,
 samples, guidance on mobile development, and a full API reference.
+
+
+### Steps followed
+1. Created AWS account
+2. Installed AWS Cli and and added aws sso config
+3. Created flutter app "flutter create my_amplify_app"
+4. Add amplify to flutter app "npm create amplify@latest -y"
+5. Run amplify using sandbox "npx ampx sandbox --outputs-format dart --outputs-out-dir lib"
+
+
+https://docs.amplify.aws/flutter/start/quickstart/
